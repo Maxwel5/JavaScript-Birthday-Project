@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1>Birthday Finder</h1>
-    
+
     <form action="/action_page.php">
       Century:<br>                                 
       <input type1="text" name="century" value="" Size="4">  
@@ -20,7 +20,10 @@
       DOB:<br>
       <input type="text" name="dob" value="" Size="6">     
       <br><br>
-      
+      <p><input type="button" Value="Refresh" ONCLICK="compute(this-form)"><input Type="reset"Value="Delete"></p>
+      <p>Birthday:<input Type="text" Name="outcome1"></p>
+      <p>Weekday:<input Type="text" Name="outcome2"></p>
+      <p>Akan name:<input Type="text" Name="outcome3"></p>
       <input type="submit" value="Submit">
     </form> 
   </body>
