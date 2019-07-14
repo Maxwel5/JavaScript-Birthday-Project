@@ -23,3 +23,6 @@ _You can reach us via the below links_:
 *facebook:https://web.facebook.com/profile.php?id=100007695125864&ref=bookmarks
 *github:https://github.com/Maxwel5/
 *linkedin:https://www.linkedin.com/in/maxwel-wafula-251990110/
+
+##Lisence & copyright information
+MIT Lisence copyright&copy;2019maxwelwafula
