@@ -1,7 +1,7 @@
 #Birthday Finder
 
 ##Description
-THis is a calculator project that aids at easy calculation at ones date of birth and assigns the **Akan** name depending on the gender. This provides an easy time for the people interested to know their actual day of birth other than doing it manually which is time consuning and unrealiable that is subject to errors.
+This is a calculator project that aids at easy calculation of ones __day of birth__ and assigns the **Akan** name depending on the gender. This provides an easy time for the people interested to know their actual day of birth other than doing it manually which is time consuning and unrealiable that is subject to errors.
 
 ##Author's Information
 The author is __Maxwel Wafula__
