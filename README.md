@@ -14,4 +14,12 @@ He is a student at __Moringa School__ studying *software development*
 /*Code: This has illustrated the entire project appearance that is laying out the user interface/front end and bussiness logic/back end.
 
 ##BDD: Behaviour Driven Development
-/*Given I am on the login page i.e 
+/*Given I am on the login page i.e credential form
+/*When I attempt to login with valid credentials i.e correct birth information
+/*Then iI am shown the application dashboard i.e the expected results
+
+##Contact Information
+_You can reach us via the below links_:
+*facebook:https://web.facebook.com/profile.php?id=100007695125864&ref=bookmarks
+*github:https://github.com/Maxwel5/
+*linkedin:https://www.linkedin.com/in/maxwel-wafula-251990110/
