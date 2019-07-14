@@ -9,12 +9,15 @@ body{
     text-align: center;
 }
 .row{
-    /* display: flex; */
     justify-content: safe;
 }
-/* .cake1{
-    float: left;
+nav li {
+    text-align: center;
+    font-size: 20px;
+    display: inline;
+    background: aliceblue;
+    text-decoration: none;
 }
-.cake2{
-    float: right;
-} */
+a:hover {
+    color: blue;
+}
