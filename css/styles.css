@@ -3,6 +3,7 @@ body{
     justify-content: center;
     background-color: cornflowerblue;
     font-size: 20px;
+    flex: 10px
 }
 .main{
     text-align: center;
@@ -11,3 +12,9 @@ body{
     /* display: flex; */
     justify-content: safe;
 }
+/* .cake1{
+    float: left;
+}
+.cake2{
+    float: right;
+} */
