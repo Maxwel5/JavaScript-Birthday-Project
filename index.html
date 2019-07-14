@@ -1,30 +1,46 @@
 <html>
-  <head>
+
+<head>
     <title>JavaScript-Birthday-Project</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script src="js/script.js"></script>
-  </head>
-  <body>
-    <h1>Birthday Finder</h1>
+    
+</head>
 
-    <form action="/action_page.php">
-      Century:<br>                                 
-      <input type1="text" name="century" value="" Size="4">  
-      <br>
-      Month:<br>
-      <input type="text" name="month" value="" Size="6">
-      <br>
-      Year:<br>                                    
-      <input type="text" name="year" value="" Size="6">
-      <br>
-      DOB:<br>
-      <input type="text" name="dob" value="" Size="6">     
-      <br><br>
-      <p><input type="button" Value="Refresh" ONCLICK="compute(this-form)"><input Type="reset"Value="Delete"></p>
-      <p>Birthday:<input Type="text" Name="outcome1"></p>
-      <p>Weekday:<input Type="text" Name="outcome2"></p>
-      <p>Akan name:<input Type="text" Name="outcome3"></p>
-      <input type="submit" value="Submit">
-    </form> 
-  </body>
+<body>
+    <div class="main">
+        <h1>Birthday Finder</h1>
+
+        <form>
+            <div class="row">
+                Century (e.g 18, 19, 20):<br>
+                <input type1="text" name="century" value="" Size="6" id="century">
+                <br>
+                Month:<br>
+                <input type="text" name="month" value="" Size="6" id="month">
+            </div>
+            <br>
+            <div class="row">
+                Year: (e.g 92, 00,05)<br>
+                <input type="text" name="year" value="" Size="6" id="year">
+                <br>
+                Date of Month:<br>
+                <input type="text" name="dob" value="" Size="6" id="date"><br>
+
+                <h2 id="result">Identify gender</h2>
+                <input type="radio" name="gender" value="male">Male<br>
+                <input type="radio" name="gender" value="female">Female<br>
+            </div>
+            <p><input type="button" Value="Submit" onclick="checkDayOfWeek();"><input Type="reset" Value="Delete"></p>
+
+            <p>Birthday:<h1 id="birthday"></h1>
+            </p>
+            <p>Weekday:<h1 id="weekday"></h1>
+            </p>
+            <p>Akan name:<h1 id="akan"></h1>
+            </p>
+            <br>
+        </form>
+    </div>
+</body> 
+<script src="js/scripts.js"></script>
 </html>
