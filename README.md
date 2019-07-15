@@ -8,9 +8,9 @@ The author is __Maxwel Wafula__
 He is a student at __Moringa School__ studying *software development*
 
 ## Technologies Used
-  __*CSS*__
-  __*HTML*__
-  __*JavaScript*__
+  * __*CSS*__
+  * __*HTML*__
+  * __*JavaScript*__
 
 ## Set up instructions/Installations
 * Open terminal(Ctrl+Alt+T)
