@@ -2,7 +2,7 @@ body{
     text-align: center;
     justify-content: center;
     background-color: cornflowerblue;
-    font-size: 20px;
+    /* font-size: 20px; */
     flex: 10px
 }
 .main{
@@ -16,7 +16,7 @@ nav li {
     font-size: 20px;
     display: inline;
     background: aliceblue;
-    text-decoration: none;
+    list-style-type: none;
 }
 a:hover {
     color: blue;
