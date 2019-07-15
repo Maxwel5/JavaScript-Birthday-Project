@@ -16,7 +16,9 @@ nav li {
     font-size: 20px;
     display: inline;
     background: aliceblue;
-    list-style-type: none;
+}
+li a{
+    text-decoration: none;
 }
 a:hover {
     color: blue;
