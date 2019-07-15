@@ -7,6 +7,11 @@ This is a calculator project that aids at easy calculation of ones __day of birt
 The author is __Maxwel Wafula__
 He is a student at __Moringa School__ studying *software development*
 
+## Technologies Used
+  __*CSS*__
+  __*HTML*__
+  __*JavaScript*__
+
 ## Set up instructions/Installations
 * Open terminal(Ctrl+Alt+T)
 * Link:https://github.com/Maxwel5/JavaScript-Birthday-Project.git
