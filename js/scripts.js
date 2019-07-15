@@ -35,62 +35,62 @@ function checkGender() {
     }
     switch (gender) {
         case "male":
-            if (dayNum == 1) {
+            if (dayNum-1 == 1) {
                 document.getElementById("birthday").innerHTML = dayNum;
                 document.getElementById("weekday").innerHTML = "The day is on a sunday.";
                 document.getElementById("akan").innerHTML = "Your akan name is  kwasi";
-            } else if (dayNum == 2) {
+            } else if (dayNum-1 == 2 ) {
                 document.getElementById("birthday").innerHTML = dayNum;
                 document.getElementById("weekday").innerHTML = "The day is on a monday.";
                 document.getElementById("akan").innerHTML = "Your akan name is  kwadwo";
-            } else if (dayNum == 3) {
+            } else if (dayNum-1 == 3) {
                 document.getElementById("birthday").innerHTML = dayNum;
                 document.getElementById("weekday").innerHTML = "The day is on a tuesday.";
                 document.getElementById("akan").innerHTML = "Your akan name is  kwabena";
-            } else if (dayNum == 4) {
+            } else if (dayNum-1 == 4) {
                 document.getElementById("birthday").innerHTML = dayNum;
                 document.getElementById("weekday").innerHTML = "The day is on a wednesday.";
                 document.getElementById("akan").innerHTML = "Your akan name is  kwaku";
-            } else if (dayNum == 5) {
+            } else if (dayNum-1 == 5) {
                 document.getElementById("birthday").innerHTML = dayNum;
                 document.getElementById("weekday").innerHTML = "The day is on a thursday.";
                 document.getElementById("akan").innerHTML = "Your akan name is  yaw";
-            } else if (dayNum == 6) {
+            } else if (dayNum-1 == 6) {
                 document.getElementById("birthday").innerHTML = dayNum;
                 document.getElementById("weekday").innerHTML = "The day is on a friday.";
                 document.getElementById("akan").innerHTML = "Your akan name is  kofi";
-            } else if (dayNum == 7) {
+            } else if (dayNum-1 == 7) {
                 document.getElementById("birthday").innerHTML = dayNum;
                 document.getElementById("weekday").innerHTML = "The day is on a saturday.";
                 document.getElementById("akan").innerHTML = "Your akan name is  kwame";
             }
             break;
         case "female":
-            if (dayNum == 1) {
+            if (dayNum-1 == 1) {
                 document.getElementById("birthday").innerHTML = dayNum;
                 document.getElementById("weekday").innerHTML = "The day is on a sunday.";
                 document.getElementById("akan").innerHTML = "Your akan name is  akosua";
-            } else if (dayNum == 2) {
+            } else if (dayNum-1 == 2) {
                 document.getElementById("birthday").innerHTML = dayNum;
                 document.getElementById("weekday").innerHTML = "The day is on a monday.";
                 document.getElementById("akan").innerHTML = "Your akan name is  adwoa";
-            } else if (dayNum == 3) {
+            } else if (dayNum-1 == 3) {
                 document.getElementById("birthday").innerHTML = dayNum;
                 document.getElementById("weekday").innerHTML = "The day is on a tuesday.";
                 document.getElementById("akan").innerHTML = "Your akan name is  abenaa";
-            } else if (dayNum == 4) {
+            } else if (dayNum-1 == 4) {
                 document.getElementById("birthday").innerHTML = dayNum;
                 document.getElementById("weekday").innerHTML = "The day is on a wednesday.";
                 document.getElementById("akan").innerHTML = "Your akan name is  akua";
-            } else if (dayNum == 5) {
+            } else if (dayNum-1 == 5) {
                 document.getElementById("birthday").innerHTML = dayNum;
                 document.getElementById("weekday").innerHTML = "The day is on a thursday.";
                 document.getElementById("akan").innerHTML = "Your akan name is  yaa";
-            } else if (dayNum == 6) {
+            } else if (dayNum-1 == 6 ) {
                 document.getElementById("birthday").innerHTML = dayNum;
                 document.getElementById("weekday").innerHTML = "The day is on a friday.";
                 document.getElementById("akan").innerHTML = "Your akan name is  afua";
-            } else if (dayNum == 7) {
+            } else if (dayNum-1 == 7) {
                 document.getElementById("birthday").innerHTML = dayNum;
                 document.getElementById("weekday").innerHTML = "The day is on a saturday.";
                 document.getElementById("akan").innerHTML = "Your akan name is  ama";
